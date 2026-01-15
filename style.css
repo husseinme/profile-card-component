@@ -21,6 +21,8 @@ body {
     background-position: right 50vw bottom 40vh, left 50vw top 40vh;
     text-align: center;
     font-family: Kumbh Sans;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h3{
@@ -47,23 +49,33 @@ h4{
 }
 
 main{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: end;
-    flex-direction: column;
     background-color: white;
     width: 350px;
     height: 374px;
+    border-radius: 0.938rem;
 }
 
-
 .profile-info{
-        margin-bottom: 20px;
+    margin-bottom: 24px;
+    width: 100%;
+}
 
+.img-section{
+    position: relative;
+    top: -51px;
+    background-image: url(images/bg-pattern-card.svg);
+    height: 148px;
+    border-radius: 0.938rem 0.938rem 0 0;
+    display: block;
 }
 
 .profile-img{
+    position: relative;
+    bottom: -100px;
     height: 6rem;
     border-radius: 100%;
     outline: 5px solid white;
