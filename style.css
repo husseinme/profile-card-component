@@ -56,12 +56,11 @@ main{
     align-items: end;
     background-color: white;
     width: 350px;
-    height: 374px;
+    height: 360px;
     border-radius: 0.938rem;
 }
 
 .profile-info{
-    margin-bottom: 24px;
     width: 100%;
 }
 
